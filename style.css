@@ -1,0 +1,57 @@
+
+.side {
+    height: 100vh;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+
+    overflow: hidden;
+
+    position: absolute;
+
+   
+}
+
+.side .word {
+    color:rgba(255, 255, 255, 0.723);
+    font-family: "Rubik", sans-serif;
+    font-size: 8vw;
+    margin: 0px 15vw;
+    -webkit-text-stroke: 8px rgba(0, 0, 0, 0.73);
+    
+}
+
+.side .bold {
+    font-family: "Lobster", bold;
+    font-size: 1.3em ;
+    line-height: 0.8em;
+}
+#peace {
+    background-image: url("photos/aang.jpeg");
+    
+    background-size: cover;
+    
+    z-index: 2;
+}
+
+#peace .bold{
+
+    display: grid;
+    place-items: bottom;
+    color: rgba(255, 59, 92, 0.807);
+}
+
+#passion {
+    background-image: url("photos/zuko.jpg");
+    background-size: 50%;
+    
+
+    /* background-color: rgb(200, 200, 83); */
+}
+
+#passion .bold {
+    display: grid;
+    place-items: bottom;
+    color:  rgba(237, 136, 19, 0.82);
+}
